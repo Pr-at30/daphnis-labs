@@ -1,0 +1,33 @@
+.searchbox {
+  border: 1px solid #3d3a3a;
+  border-radius: 0.2rem;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  outline: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.searchinput {
+  padding: 0.6rem;
+  width: 100%;
+  border:none;
+  outline: none;
+}
+
+.searchbtn {
+  margin-left: none;
+  border: none;
+  color: #fff;
+  background-color: #00a69c;
+  padding: 0.6rem;
+  margin-left: -0.5rem;
+  border-radius: 0.2rem;
+}
+
+
+::-webkit-input-placeholder {
+  color: #3d3a3a;
+}

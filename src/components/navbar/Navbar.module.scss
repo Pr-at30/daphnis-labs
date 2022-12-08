@@ -1,0 +1,50 @@
+nav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background: #750b0b;
+  padding: 1.25rem;
+  font-size: 1.25rem;
+}
+
+.link {
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.leftlinks {
+  flex: 1.3;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.centerlinks {
+  flex: 5;
+  text-decoration: none;
+  color: #fff;
+}
+
+.rightlinks {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  color: #fff;
+}
+
+.userCircle {
+  scale: 1.5;
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
+.square {
+  scale: 2;
+  background: #fff;
+  border-radius: 0.25rem;
+  margin-left: 1rem;
+  border: none;
+}
+

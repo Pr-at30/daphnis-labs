@@ -1,0 +1,19 @@
+.container{
+  margin-bottom: 1rem;
+}
+
+.heading, .itemsty {
+  display: flex;
+  width: 50%;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-left: 1rem;
+  background-color: #cfcfcf;
+  padding: 0.5rem 1rem;
+}
+
+.itemsty {
+  background-color: #ffffff;
+  font-size: 0.7rem;
+  padding: 0.3rem 1rem;
+}
